@@ -1,3 +1,5 @@
+3-islower.c
+
 #include "main.h"
 
 /**
@@ -6,9 +8,9 @@
  * Return: 1 if char is lowercase, otherwise 0.
  */
 
-int _islower(int ch)
+int _islower(int c)
 {
-	if (ch >= 'a' && ch <= 'z')
+	if (c >= 'a' && c <= 'z')
 		return (1);
 	else
 		return (0);
